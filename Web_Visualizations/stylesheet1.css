@@ -28,7 +28,7 @@ body {
   }
   
   /* Getting rid of the default link styles here */
-  .navbar li ul li {
+  .navbar li a {
     color: #000;
     text-decoration: none;
   }
