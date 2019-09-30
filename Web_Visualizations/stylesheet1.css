@@ -13,7 +13,7 @@ body {
   /* Giving our navbar some padding and a background color */
   .navbar {
     padding: 10px;
-    background: #5191fd;
+    background: #6b2ddf;
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
