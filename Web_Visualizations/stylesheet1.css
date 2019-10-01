@@ -13,18 +13,18 @@ body {
   /* Giving our navbar some padding and a background color */
   .navbar {
     padding: 10px;
-    background: #6b2ddf;
+    background: sandybrown;
   }
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-  .navbar li {
+  .navbar-item {
     display: inline-block;
     padding: 20px;
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
-    background: #fff;
     border-radius: 3px;
+    font-size: 30px;
   }
   
   /* Getting rid of the default link styles here */
@@ -41,17 +41,38 @@ body {
   }
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-  .header h1 {
+  .navbar-home h1 {
     padding: 60px;
     margin: 0;
-    color: #000;
+    text-emphasis-color: paleturquoise;
     text-align: center;
   }
   
   /* Giving the .post element margin on 3 sides */
-  .post {
+  .summary {
     margin-top: 50px;
     margin-right: 100px;
     margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  p {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   
+  .visuals {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .plots {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
