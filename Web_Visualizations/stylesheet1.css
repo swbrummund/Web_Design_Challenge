@@ -1,5 +1,5 @@
-body {
-    background: #f1f1f1;
+.body {
+    background: lightblue;
   }
   
   h1 {
@@ -21,6 +21,10 @@ body {
   } */
   
   /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .btn {
+    font-size: 30px !important;
+  }
+  
   .navbar-item {
     display: inline-block;
     padding: 20px;
@@ -80,8 +84,14 @@ body {
   }
 
   .plots {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .container {
     margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    background: white;
+    margin-left: 50px;
+    margin-right: 50px;
   }
