@@ -14,51 +14,49 @@
 
     </head>
 
-    <body>
+    <body class="body">
 
-        <div class="row">
-            <div class="col-md-12">
-            <nav class="navbar">
-                <h1 class="navbar-home"><a href="index.html">Home Page</a></h1>
-                <ul class="navbar-list">
-                    <li class="navbar-item dropdown">
-                        <div class="dropdown">
-                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>            
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                  <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                                  <a class="dropdown-item" href="humidity.html">Humidity</a>
-                                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            <div class="row">
+                    <div class="col-md-12">
+                    <nav class="navbar">
+                        <h1 class="navbar-home"><a href="index.html">Home Page</a></h1>
+                        <ul class="navbar-list">
+                            <li class="navbar-item dropdown">
+                                <div class="dropdown">
+                                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>            
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                                          <a class="dropdown-item" href="humidty.html">Humidity</a>
+                                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                          <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                                        </div>
                                 </div>
-                        </div>
-                    <li class="navbar-item"><a href="comparison.html">Comparison</a></li>
-                    <li class="navbar-item"><a href="data.html">Data</a></li>
-                </li>
-                </ul>
-            </nav>
-            </div>
-        </div>
+                            <li class="navbar-item"><a href="comparison.html">Comparison</a></li>
+                            <li class="navbar-item"><a href="data.html">Data</a></li>
+                        </li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
 
 
         <main>
-                <center>
-                    <div class="row">
-                        <div class="col-md-12">
-                                <h2>Latitude vs Humidity</h2>
-                        </div>
+                <div class="row">
+                    <div class="col-md-12">
+                            <h1 class="plot-title">Latitude vs Humidty</h1>
                     </div>
-        
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="Web_Visualizations/assets/images/Fig2.png" alt="humidity">
-                        </div>
-                        <div class="col-md-6">
-                            <p>Describe the plot and significance here.</p>
-                        </div>
+                </div>
+            
+                <div class="row">
+                    <div class="container rounded-lg bg-white border border-light w-50 m-5 col-md-6">
+                        <img src="Web_Visualizations/assets/images/Fig2.png"  width="600px" alt="humidity">
                     </div>
-                </center>
-                </main>
-
+                    <div class="container rounded-lg bg-white border border-light w-50 m-5 col-md-4">
+                        <p>Describe the plot and significance here.</p>
+                    </div>
+                </div>
+                </div>
+            </main>
 
 
     </body>
