@@ -96,7 +96,7 @@
     margin-right: 50px;
     padding: 20px;
   }
-
+ 
   .plot-title {
     text-align: center;
     padding: 20px;
@@ -105,4 +105,12 @@
   .data-title {
     text-align: center;
     padding: 20px;
+  }
+
+
+  @media (max-width: 800px) {
+    .body {
+      background: darkslategray;
+      color: black;
+    }
   }
